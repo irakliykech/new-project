@@ -1,0 +1,25 @@
+/dist/
+/psd/
+/node_modules/
+src/css/*
+
+# Ignore .psd templates
+*.psd
+
+# Ignore all images in root directory
+/*.jpg
+/*.png
+package-lock.json
+
+# Ignore all .logs but NOT .gitattributes and NOT .gitignore
+.*
+*.log
+!.editorconfig
+!.gitattributes
+!.gitignore
+
+.idea/
+.idea/*
+.vscode
+.sublime*
+npm-debug.*
